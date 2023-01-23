@@ -4,7 +4,7 @@ This is a test task for "Techinvest project". Implemented in Laravel.
 
 Books are added via a form on the page "Add", stored in the database and displayed on the "Books" page.
 
-## Important Files
+## Important files
 
 Routing is implemented in the file: route\web.php
 
@@ -24,7 +24,7 @@ Clone the repository
 
 Switch to the repo folder
 
-    cd laravel-realworld-example-app
+    cd Library
 
 Install all the dependencies using composer
 
