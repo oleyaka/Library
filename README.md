@@ -18,6 +18,8 @@ The resource files are located in the directory: resources\
 
 ## Installation
 
+Create database MySql "library" on port 3306.
+
 Clone the repository
 
     git clone https://github.com/oleyaka/Library
@@ -29,6 +31,8 @@ Switch to the repo folder
 Install all the dependencies using composer
 
     composer install
+    
+    composer update
 
 Copy the example env file and make the required configuration changes in the .env file
 
@@ -37,10 +41,6 @@ Copy the example env file and make the required configuration changes in the .en
 Generate a new application key
 
     php artisan key:generate
-
-Generate a new JWT authentication secret key
-
-    php artisan jwt:generate
 
 Run the database migrations (**Set the database connection in .env before migrating**)
 
